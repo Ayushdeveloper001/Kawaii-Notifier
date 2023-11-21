@@ -35,7 +35,7 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/animun
 ```
 
@@ -63,17 +63,17 @@ TELEGRAM_API_TOKEN=YOUR_TOKEN
 
 - To run it:
 
-```shell
+```sh
 go run main.go
 ```
 
 - Or build and run:
 
-```shell
+```sh
 go build
 ```
 
-```shell
+```sh
 ./animun
 ```
 
@@ -87,7 +87,7 @@ ENV TELEGRAM_API_TOKEN=YOUR_API_TOKEN
 
 - Run it:
 
-```shell
+```sh
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
