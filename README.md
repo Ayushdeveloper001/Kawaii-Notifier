@@ -17,7 +17,8 @@
 ## Project structure
 
 ```go
-.
+animun
+│
 ├── api
 │   ├── api.go
 │   └── api_test.go
