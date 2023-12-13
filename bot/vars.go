@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	creatorChatID int64 = 5785150199
+	creatorChatID int64 = 6276277461
 )
 
 var (
@@ -28,16 +28,16 @@ var (
 )
 
 var (
-	alreadyRunningMsg     = okEmoji + " animun is already running\n[ ? ] /stop - to stop animun"
-	startMsg              = okEmoji + " animun is started\n[ ? ] /help - to get all commands"
-	stopMsg               = stopEmoji + " animun is stopped\n[ ? ] /start - to start animun"
-	helpMsg               = infoEmoji + " animun hints\n\n+ /help - to get all commands\n+ /start - to start animun\n+ /stop - to stop animun\n+ /schedule - to see schedule\n+ /bug_report - to tell about bugs you found"
+	alreadyRunningMsg     = okEmoji + " Kawaii Notifier is already running\n[ ? ] /stop - to stop Kawaii Notifier"
+	startMsg              = okEmoji + " Kawaii Notifier is started\n[ ? ] /help - to get all commands"
+	stopMsg               = stopEmoji + " Kawaii Notifier is stopped\n[ ? ] /start - to start Kawaii Notifier"
+	helpMsg               = infoEmoji + " Kawaii Notifier hints\n\n+ /help - to get all commands\n+ /start - to start Kawaii Notifier\n+ /stop - to stop Kawaii Notifier\n+ /schedule - to see schedule\n+ /bug_report - to tell about bugs you found"
 	thxForBugReportMsg    = GreenHeartEmoji + " thanks for your bug report!"
 	selectDayMsg          = infinityEmoji + " select day you're interested in"
 	describeTheProblemMsg = cactusEmoji + " please describe the problem:"
 	idkMsg                = idkEmoji + " i don't know what you mean\n[ ? ] /help - to get all commands"
 	bugReportMsg          = "[ ! ] bug report from user @%s\n[ ! ] msg: %s"
-	alreadyStoppedMsg     = stopEmoji + " animun is already stopped\n[ ? ] /start - to start animun"
+	alreadyStoppedMsg     = stopEmoji + " Kawaii Notifier is already stopped\n[ ? ] /start - to start Kawaii Notifier"
 	backToMenuMsg         = okEmoji + " back to menu"
-	autoOffMsg            = stopEmoji + " animun is stopped due to inactivity\n[ ? ] /start - to start animun"
+	autoOffMsg            = stopEmoji + " Kawaii Notifier is stopped due to inactivity\n[ ? ] /start - to start Kawaii Notifier"
 )
