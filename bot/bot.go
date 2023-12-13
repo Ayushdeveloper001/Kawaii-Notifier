@@ -3,7 +3,7 @@ package bot
 import (
 	"fmt"
 	"github.com/darenliang/jikan-go"
-	"github.com/joho/godotenv"
+	//"github.com/joho/godotenv"
 	"github.com/kenjitheman/animun/api"
 	"log"
 	"os"
@@ -13,10 +13,10 @@ import (
 )
 
 func Start() {
-	err := godotenv.Load(".env")
+	/*err := godotenv.Load(".env")
 	if err != nil {
 		log.Panic(err)
-	}
+	}*/
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_API_TOKEN"))
 	if err != nil {
 		log.Panic(err)
